@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Times sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+
+}
+
+.section1 {
+  display: flex;
+  text-align: center;
+}
+
+img {
+  height: 374px;
+  width: 280px;
+}
+
+#first{
+  max-width: 380px;
+}
+
+p {
+  font-size: 20px;
+}
+
+#title {
+  height: 40px;
+  background: url('img/line.jpg') repeat-x left;
+  margin-bottom: 15px;
+}
+
+h1 {
+  color: #3fb5f1;
+  display: inline;
+  background-color: white;
+  padding: 0 10px;
+  font-family: 'Comic Sans MS', arial;
+}
+
+.section2 {
+  text-align: center;
+}
+
+.section2 p {
+  padding-bottom: 15px;
+}
+
+#text2 {
+  text-align: left;
+}
+
+#dialogue {
+  padding: 10px;
+  border: 2px solid black;
+}
+
+ul li p {
+  margin: 10px 0;
+}
+#example {
+  padding: 0 10px;
+  width: 170px;
+  background-color: #f1d1e3;
+}
+li {
+  color: #3fb5f1;
+}
+
+li span {
+  color: black;
+}
+.section3 p span{
+  color: #3fb5f1;
+}
+
+#cd {
+  height: 15px;
+  width:15px;
+}
+
+.section3 p {
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    margin: 20px 30px;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  main {
+    margin: 20px 30px;
+  }
+
+  .section1 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 320px) {
+#title {
+  height: 80px;
+  background: none;
+}
+}
